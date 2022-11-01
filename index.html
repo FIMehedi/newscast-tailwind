@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newspaper By FIMehedi</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/build/style.css" />
+  </head>
+  <body class="">
+    <!-- Header Section -->
+    <header>
+      <!-- Top Header -->
+      <div class="bg-white shadow-custom">
+        <div class="container">
+          <div
+            class="flex justify-between items-center text-xs text-primary font-normal"
+          >
+            <ul class="flex items-center">
+              <li class="flex items-center pr-3">
+                <i class="bx bxs-cloud text-lg"></i>
+                <span class="pl-1">15<sup>&deg;C</sup></span>
+                <span class="pl-2">New York</span>
+              </li>
+              <li class="flex items-center pr-3">
+                <i class="bx bxs-calendar text-sm"></i>
+                <span class="pl-1">Wednesday, 10 January 2021</span>
+              </li>
+              <li class="flex items-center">
+                <p class="bg-secondary text-white px-2 py-1.5 mr-2 h-full">
+                  Breaking News
+                </p>
+                <span
+                  >Indonesia says located black box recorders from crashed
+                  plane</span
+                >
+              </li>
+            </ul>
+            <ul class="flex items-center text-xl text-primary">
+              <li class="ml-2">
+                <a href=""><i class="bx bxl-facebook-circle"></i></a>
+              </li>
+              <li class="ml-2">
+                <a href=""><i class="bx bxl-twitter"></i></a>
+              </li>
+              <li class="ml-2">
+                <a href=""><i class="bx bxl-instagram-alt"></i></a>
+              </li>
+              <li class="ml-2">
+                <a href=""><i class="bx bxl-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Logo Area -->
+      <div class="container flex justify-between items-center py-4">
+        <div class="w-1/5">
+          <img
+            class="w-auto max-w-xxs"
+            src="./assets/logo/logo.png"
+            alt="NewsCast"
+          />
+        </div>
+        <div class="w-3/5 bg-ads-bg bg-cover bg-center bg-no-repeat">
+          <div class="flex justify-between items-center p-4">
+            <div class="text-sm">
+              <p class="text-white font-normal">
+                Best Selling <strong>BLOG</strong> and
+                <strong>MAGAZINE</strong> <br />
+                Theme of All Time
+              </p>
+              <p class="text-secondary font-bold font-Oswald">
+                Experience the change!
+              </p>
+            </div>
+            <div class="">
+              <a
+                href=""
+                class="bg-secondary px-6 py-4 text-white font-bold text-lg"
+                >PURCHASE NOW</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Main Menu -->
+      <nav
+        class="flex justify-between items-center container bg-primary text-white text-lg font-normal"
+      >
+        <ul class="font-Oswald flex">
+          <li class="bg-secondary">
+            <a href="" class="p-4 inline-block">Home</a>
+          </li>
+          <li class="hover:bg-secondary">
+            <a href="" class="p-4 inline-block">International</a>
+          </li>
+          <li class="hover:bg-secondary">
+            <a href="" class="p-4 inline-block">Sports</a>
+          </li>
+          <li class="hover:bg-secondary">
+            <a href="" class="p-4 inline-block">Opinion</a>
+          </li>
+          <li class="hover:bg-secondary">
+            <a href="" class="p-4 inline-block">Business</a>
+          </li>
+          <li class="hover:bg-secondary">
+            <a href="" class="p-4 inline-block">Youth</a>
+          </li>
+          <li class="hover:bg-secondary">
+            <a href="" class="p-4 inline-block">Lifestyle</a>
+          </li>
+        </ul>
+        <div class="pr-4 flex items-center border-l border-l-gray-500">
+          <input
+            class="p-4 bg-primary font-thin text-sm outline-none"
+            type="text"
+            placeholder="Search for"
+          />
+          <i class="bx bx-search text-gray-400" title="Search Any"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- Feature News Section -->
+    <!-- <section class="container flex gap-2 py-4">
+      <div class="w-1/2">
+        <img src="./assets/images/feature-news.png" alt="" />
+      </div>
+      <div class="w-1/2 border-2 border-red-600">
+        <div class="grid grid-cols-2 grid-rows-2">
+          <div class="border-2">
+            <div class="">
+              <img src="./assets/images/feature-news2.png" alt="" />
+            </div>
+          </div>
+          <div class="border-2">
+            <div class="">
+              <img src="./assets/images/feature-news2.png" alt="" />
+            </div>
+          </div>
+          <div class="border-2">
+            <div class="">
+              <img src="./assets/images/feature-news2.png" alt="" />
+            </div>
+          </div>
+          <div class="border-2">
+            <div class="">
+              <img src="./assets/images/feature-news2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Don't Miss section -->
+    <section class="container flex my-4">
+      <div class="w-2/3">
+        <div
+          class="flex justify-between items-center py-2 border-b border-b-gray-400"
+        >
+          <h2 class="font-semibold text-2xl text-secondary">Don't Miss</h2>
+          <ul class="flex text-white">
+            <li>
+              <a
+                href=""
+                class="bg-secondary py-0.5 font-normal text-sm px-2 ml-2"
+                >All</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="bg-green-600 py-0.5 font-normal text-sm px-2 ml-2"
+                >Lifestyle</a
+              >
+            </li>
+            <li>
+              <a href="" class="bg-primary py-0.5 font-normal text-sm px-2 ml-2"
+                >Travel</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="bg-cyan-600 py-0.5 font-normal text-sm px-2 ml-2"
+                >World</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="bg-slate-600 py-0.5 font-normal text-sm px-2 ml-2"
+                >Business</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="bg-purple-700 py-0.5 font-normal text-sm px-2 ml-2"
+                >More</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex py-4">
+          <div class="w-1/2">
+            <div class="overflow-hidden relative">
+              <img src="./assets/images/dontmiss1.png" alt="" />
+              <span
+                class="bg-slate-600 py-0.5 font-normal text-sm px-2 text-white absolute top-4 left-4"
+              >
+                Business
+              </span>
+            </div>
+            <div class="py-4">
+              <p class="text-sm font-normal text-gray-500">
+                Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+              </p>
+              <h3 class="text-primary font-bold text-lg py-2 text-justify">
+                <a
+                  href=""
+                  class="hover:text-secondary hover:underline transition"
+                  >Now Is the Time to Think About Your Small Business Success</a
+                >
+              </h3>
+              <p class="text-gray-400 font-light text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Faucibus lobortis augue condimentum maecenas. Metus at in fames
+                vitae posuere ut vel vulputate....
+              </p>
+            </div>
+          </div>
+          <div class="w-1/2 pl-6">
+            <div class="flex gap-3">
+              <div class="h-5">
+                <img src="./assets/images/dontmiss2.png" alt="" />
+              </div>
+              <div class="">
+                <p class="text-sm font-normal text-gray-500">
+                  Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+                </p>
+                <h3 class="text-primary font-bold text-lg py-2 text-justify">
+                  <a
+                    href=""
+                    class="hover:text-secondary hover:underline transition"
+                    >Penn’s expanding political climate gears up fo 2020
+                    election</a
+                  >
+                </h3>
+              </div>
+            </div>
+
+            <div class="flex gap-3">
+              <div class="h-5">
+                <img src="./assets/images/dontmiss2.png" alt="" />
+              </div>
+              <div class="">
+                <p class="text-sm font-normal text-gray-500">
+                  Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+                </p>
+                <h3 class="text-primary font-bold text-lg py-2 text-justify">
+                  <a
+                    href=""
+                    class="hover:text-secondary hover:underline transition"
+                    >Penn’s expanding political climate gears up fo 2020
+                    election</a
+                  >
+                </h3>
+              </div>
+            </div>
+
+            <div class="flex gap-3">
+              <div class="h-5">
+                <img src="./assets/images/dontmiss2.png" alt="" />
+              </div>
+              <div class="">
+                <p class="text-sm font-normal text-gray-500">
+                  Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+                </p>
+                <h3 class="text-primary font-bold text-lg py-2 text-justify">
+                  <a
+                    href=""
+                    class="hover:text-secondary hover:underline transition"
+                    >Penn’s expanding political climate gears up fo 2020
+                    election</a
+                  >
+                </h3>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <div class="h-5">
+                <img src="./assets/images/dontmiss3.png" alt="" />
+              </div>
+              <div class="">
+                <p class="text-sm font-normal text-gray-500">
+                  Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+                </p>
+                <h3 class="text-primary font-bold text-lg py-2 text-justify">
+                  <a
+                    href=""
+                    class="hover:text-secondary hover:underline transition"
+                    >Penn’s expanding political climate gears up fo 2020
+                    election</a
+                  >
+                </h3>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <div class="h-5">
+                <img src="./assets/images/dontmiss4.png" alt="" />
+              </div>
+              <div class="">
+                <p class="text-sm font-normal text-gray-500">
+                  Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+                </p>
+                <h3 class="text-primary font-bold text-lg py-2 text-justify">
+                  <a
+                    href=""
+                    class="hover:text-secondary hover:underline transition"
+                    >Penn’s expanding political climate gears up fo 2020
+                    election</a
+                  >
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-1/3 mt-2 pl-10">
+        <div
+          class="flex justify-between items-center py-2 border-b border-b-gray-400"
+        >
+          <a href="" class="font-medium text-secondary">Recent</a>
+          <a href="" class="font-medium">Recent</a>
+          <a href="" class="font-medium">Recent</a>
+        </div>
+
+        <div class="flex mt-4">
+          <div class="h-20 overflow-hidden">
+            <img src="./assets/images/recent1.png" alt="" />
+          </div>
+          <div class="pl-3">
+            <p class="text-sm font-normal text-gray-500">
+              Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+            </p>
+            <h3 class="text-primary font-bold py-2 text-justify">
+              <a href="" class="hover:text-secondary hover:underline transition"
+                >Gluten-Free Almond Cake with Berries</a
+              >
+            </h3>
+          </div>
+        </div>
+
+        <div class="flex mt-2">
+          <div class="h-20 overflow-hidden">
+            <img src="./assets/images/recent1.png" alt="" />
+          </div>
+          <div class="pl-3">
+            <p class="text-sm font-normal text-gray-500">
+              Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+            </p>
+            <h3 class="text-primary font-bold py-2 text-justify">
+              <a href="" class="hover:text-secondary hover:underline transition"
+                >Gluten-Free Almond Cake with Berries</a
+              >
+            </h3>
+          </div>
+        </div>
+        <div class="flex mt-2">
+          <div class="h-20 overflow-hidden">
+            <img src="./assets/images/recent1.png" alt="" />
+          </div>
+          <div class="pl-3">
+            <p class="text-sm font-normal text-gray-500">
+              Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+            </p>
+            <h3 class="text-primary font-bold py-2 text-justify">
+              <a href="" class="hover:text-secondary hover:underline transition"
+                >Gluten-Free Almond Cake with Berries</a
+              >
+            </h3>
+          </div>
+        </div>
+        <div class="flex mt-2">
+          <div class="h-20 overflow-hidden">
+            <img src="./assets/images/recent1.png" alt="" />
+          </div>
+          <div class="pl-3">
+            <p class="text-sm font-normal text-gray-500">
+              Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+            </p>
+            <h3 class="text-primary font-bold py-2 text-justify">
+              <a href="" class="hover:text-secondary hover:underline transition"
+                >Gluten-Free Almond Cake with Berries</a
+              >
+            </h3>
+          </div>
+        </div>
+        <div class="flex mt-2">
+          <div class="h-20 overflow-hidden">
+            <img src="./assets/images/recent1.png" alt="" />
+          </div>
+          <div class="pl-3">
+            <p class="text-sm font-normal text-gray-500">
+              Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+            </p>
+            <h3 class="text-primary font-bold py-2 text-justify">
+              <a href="" class="hover:text-secondary hover:underline transition"
+                >Gluten-Free Almond Cake with Berries</a
+              >
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Entertainment Section -->
+    <section class="container">
+      <div
+        class="flex justify-between items-center py-2 border-b border-b-gray-400"
+      >
+        <h2 class="font-semibold text-2xl text-secondary">Entertainment</h2>
+      </div>
+      <div class="my-4 relative">
+        <img src="./assets/images/enter-cover.png" alt="" />
+        <span
+          class="bg-blue-500 py-0.5 font-normal text-sm px-2 text-white absolute top-8 left-8"
+        >
+          Hollywood
+        </span>
+        <div class="absolute bottom-28 left-8 text-white">
+          <h3 class="font-bold text-2xl">
+            Amanda Seyfried became ‘really obsessed’ with ghost stories
+          </h3>
+          <p class="font-normal text-lg pt-4 text-gray-200">
+            Hollywood actress Amanda Seyfried has recalled the time when
+            <br />
+            she became obsessed with ghost stories
+          </p>
+        </div>
+      </div>
+      <div class="flex gap-4 justify-between">
+        <div class="flex">
+          <div class="w-48 h-28 overflow-hidden relative">
+            <img src="./assets/images/enter1.png" alt="" />
+            <span
+              class="bg-slate-600 py-0.5 font-normal text-sm px-2 text-white absolute top-2 left-2"
+            >
+              Business
+            </span>
+          </div>
+          <div class="pl-3">
+            <p class="text-sm font-normal text-gray-500">
+              Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+            </p>
+            <h3 class="text-primary font-bold py-2 text-justify">
+              <a href="" class="hover:text-secondary hover:underline transition"
+                >Amanda Seyfried became ‘really obsessed’ with ghost stories</a
+              >
+            </h3>
+          </div>
+        </div>
+
+        <div class="flex">
+          <div class="w-48 h-28 overflow-hidden relative">
+            <img src="./assets/images/enter2.png" alt="" />
+            <span
+              class="bg-slate-600 py-0.5 font-normal text-sm px-2 text-white absolute top-2 left-2"
+            >
+              Business
+            </span>
+          </div>
+          <div class="pl-3">
+            <p class="text-sm font-normal text-gray-500">
+              Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+            </p>
+            <h3 class="text-primary font-bold py-2 text-justify">
+              <a href="" class="hover:text-secondary hover:underline transition"
+                >Amanda Seyfried became ‘really obsessed’ with ghost stories</a
+              >
+            </h3>
+          </div>
+        </div>
+
+        <div class="flex">
+          <div class="w-48 h-28 overflow-hidden relative">
+            <img src="./assets/images/enter1.png" alt="" />
+            <span
+              class="bg-slate-600 py-0.5 font-normal text-sm px-2 text-white absolute top-2 left-2"
+            >
+              Business
+            </span>
+          </div>
+          <div class="pl-3">
+            <p class="text-sm font-normal text-gray-500">
+              Craig Bator - <span class="text-gray-400">27 Dec 2020</span>
+            </p>
+            <h3 class="text-primary font-bold py-2 text-justify">
+              <a href="" class="hover:text-secondary hover:underline transition"
+                >Amanda Seyfried became ‘really obsessed’ with ghost stories</a
+              >
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
